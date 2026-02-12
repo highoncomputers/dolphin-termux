@@ -67,7 +67,6 @@ This automatically:
 - builds the AI engine
 - detects your phone power
 - downloads best model
-- sets launcher command
 
 ⏳ This step may take 5–20 minutes
 
