@@ -13,7 +13,7 @@ cd ~/llama.cpp || exit
 
 echo "[+] Building..."
 cmake -B build
-cmake --build build --config Release
+cmake --build build -j$(nproc)
 
 mkdir -p ~/llama.cpp/models
 cd ~/dolphin-termux || exit
